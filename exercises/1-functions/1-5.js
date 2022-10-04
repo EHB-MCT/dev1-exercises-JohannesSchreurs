@@ -24,7 +24,7 @@ function draw () {
 
     // Sun
     context.beginPath();
-    context.ellipse(300, 350, 200, 200, Math.PI, 0, Math.PI);
+    context.ellipse(300, 350, 200, 100, Math.PI, 0, Math.PI);
     context.fillStyle = 'yellow';
     context.fill();
     context.closePath();

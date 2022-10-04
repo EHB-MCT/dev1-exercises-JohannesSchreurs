@@ -13,21 +13,19 @@ function draw () {
     context.rect(50, 50, 500, 500);
     context.fillStyle = 'hotpink';
     context.fill();
-    context.closePath();
     
     // Sea
     context.beginPath();
     context.rect(50, 350, 500, 200);
     context.fillStyle = 'aqua';
     context.fill();
-    context.closePath();
 
     // Sun
     context.beginPath();
     context.ellipse(300, 350, 200, 100, Math.PI, 0, Math.PI);
     context.fillStyle = 'yellow';
     context.fill();
-    context.closePath();
+    
 }
 
 draw();

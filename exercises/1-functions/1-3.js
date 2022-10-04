@@ -18,7 +18,6 @@ function draw () {
     context.rect(50, 50, randomNumber + 200, randomNumber + 200);
     context.stroke();
     context.fill();
-
     
     context.beginPath();
     context.rect(50, 50, randomNumber + 150, randomNumber + 150);

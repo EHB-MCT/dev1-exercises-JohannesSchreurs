@@ -19,20 +19,16 @@ function drawBox () {
     // Second red line
     context.moveTo(50, 200);
     context.lineTo(200, 50);
-    context.closePath();
-
     context.stroke();
 
     // Box
     context.beginPath();
     context.strokeStyle = 'black';
-
     context.moveTo(50, 50);
     context.lineTo(200, 50);
     context.lineTo(200, 200);
     context.lineTo(50, 200);
     context.lineTo(50, 50);
-
     context.stroke();
 }
 

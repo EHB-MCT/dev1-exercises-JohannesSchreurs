@@ -16,7 +16,6 @@ function draw () {
     context.rect(350, 100, 50, 50);
     context.rect(100, 350, 50, 50);
     context.stroke();
-    context.closePath();
 
     // Big center square
     context.beginPath();
@@ -24,7 +23,6 @@ function draw () {
     context.rect(150, 150, 200, 200);
     context.fill();
     context.stroke();
-    context.closePath();
 
     context.beginPath();
     context.fillStyle = 'black';

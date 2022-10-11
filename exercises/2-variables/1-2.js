@@ -24,7 +24,6 @@ function drawPattern () {
     context.beginPath();
     context.fillStyle = "red";
     context.rect(0, height * .15, width * .99, height * .33);
-    // context.rect(width * 0.66, height * .66, width * .33, height * .33);
     context.fill();
 }
 

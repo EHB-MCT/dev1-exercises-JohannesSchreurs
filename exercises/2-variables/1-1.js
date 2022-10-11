@@ -28,4 +28,4 @@ function drawSquares () {
 
 drawSquares();
 
-// window.setInterval(drawSquares, 100);
+// window.setInterval(drawSquares, 1000 / 24);
